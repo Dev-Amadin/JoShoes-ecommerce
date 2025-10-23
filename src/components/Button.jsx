@@ -7,7 +7,8 @@ const Button = ({ label, iconUrl, backgroundColor,
     ${backgroundColor ? `${backgroundColor} 
     ${borderColor} ${textColor}` :
      `bg-pink-500  text-white border-pink-500`}
-     ${fullWidth && 'w-full'}  `}
+     ${fullWidth && 'w-full'} 
+     ${backgroundColor ? `hover:bg-slate-gray hover:text-white` : 'hover:bg-pink-600'} ' `}
     >
       {label}
       {iconUrl && (

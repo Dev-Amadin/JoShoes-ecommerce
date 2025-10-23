@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
 
   ],
-  base:"/JoShoes-ecommerce/"
+  base:"/JoShoes-ecommerce"
 })
